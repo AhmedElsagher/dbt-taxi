@@ -1,0 +1,10 @@
+version: 2
+sources:
+  - name: raw
+    database: AIRBYTE_DATABASE
+    schema: AIRBYTE_SCHEMA
+    tables:
+      - name: fhv_tripdata 
+      - name: yellow_tripdata 
+      - name: green_tripdata   
+      - name: taxi_zone_lookup 
