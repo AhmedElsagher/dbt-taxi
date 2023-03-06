@@ -1,24 +1,31 @@
 version: 2
 
 models:
-  - name: stg_fhv_tripdata
-    description: >
-        Trip made by fhv taxis, also known as boro taxis and street-hail liveries.
-        Green taxis may respond to street hails,but only in the areas indicated in green on the
-        map (i.e. above W 110 St/E 96th St in Manhattan and in the boroughs).
-        The records were collected and provided to the NYC Taxi and Limousine Commission (TLC) by
-        technology service providers. 
-  - name: stg_green_tripdata
-    description: >
-        Trip made by green taxis, also known as boro taxis and street-hail liveries.
-        Green taxis may respond to street hails,but only in the areas indicated in green on the
-        map (i.e. above W 110 St/E 96th St in Manhattan and in the boroughs).
-        The records were collected and provided to the NYC Taxi and Limousine Commission (TLC) by
-        technology service providers. 
-  - name: stg_yellow_tripdata
-    description: >
-        Trip made by yellow taxis, also known as boro taxis and street-hail liveries.
-        Green taxis may respond to street hails,but only in the areas indicated in green on the
-        map (i.e. above W 110 St/E 96th St in Manhattan and in the boroughs).
-        The records were collected and provided to the NYC Taxi and Limousine Commission (TLC) by
-        technology service providers. 
+    - name: stg_Account
+    - name: stg_AccountHistory
+    - name: stg_Campaign
+    - name: stg_CampaignHistory
+    - name: stg_CampaignMember
+    - name: stg_Commitment__c
+    - name: stg_Commitment__History
+    - name: stg_Contact
+    - name: stg_ContactHistory
+    - name: stg_cpm__Installment__c
+    - name: stg_cpm__Mandate__c
+    - name: stg_cpm__Payment__c
+    - name: stg_cpm__Payment_Profile__c
+    - name: stg_Family_Membership_Member__c
+    - name: stg_npe03__Recurring_Donation__c
+    - name: stg_npe03__Recurring_Donation__History
+    - name: stg_npe5__Affiliation__c
+    - name: stg_npsp__Address__c
+    - name: stg_npsp__Allocation__c
+    - name: stg_npsp__General_Accounting_Unit__c
+    - name: stg_Opportunity
+    - name: stg_OpportunityFieldHistory
+    - name: stg_Order
+    - name: stg_OrderItem
+    - name: stg_Pricebook2
+    - name: stg_Product2
+    - name: stg_Product2History
+    - name: stg_RecordType
